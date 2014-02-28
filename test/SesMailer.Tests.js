@@ -54,6 +54,7 @@ describe('SesMailer', function(){
         });
 
         it('An exception should have been thrown if accessKey is null', function(){
+            assert.equal(false,true);
             assert.throws(function() { mailer.SendMail(null, "test secret key", { }); }, 'accessKey');
         });
         
