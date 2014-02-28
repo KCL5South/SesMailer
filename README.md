@@ -10,7 +10,11 @@ Once node is installed, run the following command:
 
     npm install https://github.com/KCL5South/SesMailer/tarball/master
 
-This will install SesMailer in a `node_modules` directory in the current working directory.  Run the following command to see the list of options to send an e-mail.
+This will install SesMailer in a `node_modules` directory in the current working directory.  
+
+*To Run*
+
+Run the following command to see the list of options to send an e-mail.
 
     node .\node_modules\SesMailer\sendmail.js --help
 
