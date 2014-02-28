@@ -1,0 +1,13 @@
+{
+    "name": "SesMailer",
+    "version": "0.0.1",
+    "author": "KCL5South <KCLGroupDev@kclife.com>",
+    "description": "A simple wrapper to send e-mail with AWS SES.",
+    "dependencies": {
+        "minimist":     "0.0.8",
+        "mocha":        "1.17.1",
+        "nodemailer":   "0.6.1",
+        "sinon":        "1.8.2"
+    },
+    "main": "./SesMailer.js"
+}
